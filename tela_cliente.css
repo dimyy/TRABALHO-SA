@@ -1,0 +1,158 @@
+/* Estilos para a Navbar */
+.navbar {
+    background-color: #0E86F8; /* Altera a cor da Navbar para #0E86F8 */
+}
+
+.navbar-brand.mixcoins {
+    color: #FEAF00;
+    font-size: 30px;
+}
+
+.navbar-brand.mixcoins:hover {
+    color: #FEAF00; /* Mudar a cor no hover se desejar */
+}
+
+.navbar-brand.mixcoins:focus {
+    color: #FEAF00; /* Mudar a cor quando o link é focado se desejar */
+}
+
+.navbar-nav .nav-link {
+    color: #FEAF00;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FEAF00;
+}
+
+.navbar-toggler-icon {
+    background-color: #FEAF00;
+}
+
+/* Estilos para o botão de compra */
+.btn-comprar {
+    background-color: #FEAF00;
+    border-color: #FEAF00;
+    color: #fff;
+}
+
+.btn-comprar:hover {
+    background-color: #FFD14D;
+    border-color: #FFD14D;
+}
+
+/* Estilos para o carrossel */
+.carousel {
+    max-width: 600px; /* Reduz a largura máxima para 600px */
+    margin-bottom: 100px;
+    margin-top: 100px; /* Ajusta a margem superior do carrossel */
+}
+
+.carousel-item img {
+    object-fit: cover; /* Garante que todas as imagens tenham o mesmo tamanho */
+    height: 400px; /* Define a altura desejada para as imagens */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 100%; /* Define a largura da legenda como 100% */
+    padding: 10px; /* Adiciona um preenchimento para a legenda */
+    position: absolute; /* Posiciona a legenda de forma absoluta */
+    bottom: 0; /* Alinha a legenda na parte inferior */
+    left: 0; /* Alinha a legenda à esquerda */
+    text-align: center; /* Centraliza o texto na legenda */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    margin-bottom: 0; /* Remove a margem inferior para evitar espaço extra */
+}
+
+/* Estilos para as setas do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+    color: black; /* Define a cor das setas como preto */
+    border: none; /* Remove a borda */
+    width: 5%; /* Reduz a largura dos controles */
+    filter: invert(0%); /* Mantém a cor das setas preta */
+}
+
+/* Estilos para a seta esquerda */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-.25.25-4 4 4 4 .25.25h.25v-1.5L2.5 4.5 5.5 1.5v-1.5z'/%3e%3c/svg%3e"); /* Define a cor da seta esquerda como preto */
+}
+
+/* Estilos para a seta direita */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-.25.25 4 4-4 4 .25.25h.25v-1.5l3-3-3-3v-1.5z'/%3e%3c/svg%3e"); /* Define a cor da seta direita como preto */
+}
+
+/* Estilos para o modal */
+.modal-content {
+    background-color: #0E86F8;
+    color: white;
+}
+
+.modal-title {
+    color: white;
+}
+
+.modal-body input[type="text"] {
+    background-color:#fff;
+    color: #0E86F8;
+    border-color: #FEAF00;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #FFF;
+    border-color: #FEAF00;
+    color: #0E86F8;
+}
+
+.modal-footer .btn-primary {
+    background-color: #ffffff;
+    color: #0E86F8;
+    border-color: #FFD14D;
+}
+
+/* Estilos para o ícone do botão de CPF */
+.fa-id-card {
+    color: #FEAF00;
+}
+
+/* Estilos para o carrossel vertical de sugestões */
+.sugestao-carousel {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 500px;
+}
+
+.sugestao-header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.sugestao-title {
+    margin: 0;
+}
+
+.sugestao-title:before,
+.sugestao-title:after {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: transparent;
+    margin: 0 10px;
+}
+/* Estilos para o carrossel vertical de sugestões */
+.sugestao-carousel .carousel-inner .carousel-item img {
+    height: 100%; /* Define a altura das imagens como 100% */
+    object-fit: cover; /* Garante que todas as imagens tenham o mesmo tamanho */
+}
